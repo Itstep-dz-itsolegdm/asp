@@ -9,39 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstAsp
 build_property.RootNamespace = FirstAsp
-build_property.ProjectDir = D:\rep\itstepASP\FirstAsp\FirstAsp\FirstAsp\
+build_property.ProjectDir = D:\rep\itstepASP\asp\FirstAsp\FirstAsp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\rep\itstepASP\FirstAsp\FirstAsp\FirstAsp
+build_property.MSBuildProjectDirectory = D:\rep\itstepASP\asp\FirstAsp\FirstAsp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/Home/Privacy.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/Shared/Error.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QcmljaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Testimonials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZXN0aW1vbmlhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/_ViewImports.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/_ViewStart.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/rep/itstepASP/FirstAsp/FirstAsp/FirstAsp/Views/Shared/_Layout.cshtml]
+[D:/rep/itstepASP/asp/FirstAsp/FirstAsp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5jbrwkujn8

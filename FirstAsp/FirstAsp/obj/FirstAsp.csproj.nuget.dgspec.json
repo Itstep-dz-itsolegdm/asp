@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\rep\\itstepASP\\FirstAsp\\FirstAsp\\FirstAsp\\FirstAsp.csproj": {}
+    "D:\\rep\\itstepASP\\asp\\FirstAsp\\FirstAsp\\FirstAsp.csproj": {}
   },
   "projects": {
-    "D:\\rep\\itstepASP\\FirstAsp\\FirstAsp\\FirstAsp\\FirstAsp.csproj": {
+    "D:\\rep\\itstepASP\\asp\\FirstAsp\\FirstAsp\\FirstAsp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\rep\\itstepASP\\FirstAsp\\FirstAsp\\FirstAsp\\FirstAsp.csproj",
+        "projectUniqueName": "D:\\rep\\itstepASP\\asp\\FirstAsp\\FirstAsp\\FirstAsp.csproj",
         "projectName": "FirstAsp",
-        "projectPath": "D:\\rep\\itstepASP\\FirstAsp\\FirstAsp\\FirstAsp\\FirstAsp.csproj",
+        "projectPath": "D:\\rep\\itstepASP\\asp\\FirstAsp\\FirstAsp\\FirstAsp.csproj",
         "packagesPath": "C:\\Users\\itsol\\.nuget\\packages\\",
-        "outputPath": "D:\\rep\\itstepASP\\FirstAsp\\FirstAsp\\FirstAsp\\obj\\",
+        "outputPath": "D:\\rep\\itstepASP\\asp\\FirstAsp\\FirstAsp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
