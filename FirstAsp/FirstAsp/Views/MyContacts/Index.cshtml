@@ -1,0 +1,76 @@
+﻿@model IEnumerable<FirstAsp.Models.MyContacts>
+
+@{
+ViewData["Title"] = "MyContacts";
+Layout = "_Layout"; // Use your shared layout file if you have one
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @await Html.PartialAsync("_Header")
+    <title>@ViewData["Title"]</title>
+    <style>
+        #header {
+            background-color: #0c0091;
+        }
+    </style>
+    </head>
+<body>
+<div class="container" style="margin-top: 100px">
+    <h2>@ViewData["Title"]</h2>
+
+    <p>
+        <a class="btn btn-primary" href="@Url.Action("Create")">Create New</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Phone)
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                <a class="btn btn-warning btn-sm" href="@Url.Action("Edit", new { id = item.Id })">Edit</a>
+                <a class="btn btn-info btn-sm" href="@Url.Action("Details", new { id = item.Id })">Details</a>
+                <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", new { id = item.Id })">Delete</a>
+            </td>
+        </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<!-- Vendor JS Files -->
+<script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/vendor/aos/aos.js"></script>
+<script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="~/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Main JS File -->
+<script src="~/assets/js/main.js"></script>
+</body>
+</html>

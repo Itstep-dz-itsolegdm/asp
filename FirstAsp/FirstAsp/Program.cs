@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using FirstAsp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configure SQLite Database
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite("Data Source=database.db"));
 
 var app = builder.Build();
 
@@ -23,5 +30,9 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "mycontacts",
+    pattern: "MyContacts/{action}/{id?}");
 
 app.Run();
